@@ -1,6 +1,27 @@
 I encountered some issues. I have mentioned them as well as the solution which worked for me.
 
 ```
+react-dom.development.js:88 Warning: Can't perform a React state update on an unmounted component.
+This is a no-op, but it indicates a memory leak in your application.
+To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.
+    in SurveyQuestion (created by SurveyRow)
+    in div (created by SurveyRow)
+    in SurveyRow (created by SurveyPanel)
+    in div (created by SurveyPanel)
+    in div (created by SurveyPanel)
+    in SurveyPanel (created by SurveyRow)
+    in div (created by SurveyRow)
+    in SurveyRow (created by SurveyPanel)
+    in div (created by SurveyPanel)
+    in div (created by SurveyPanel)
+    in SurveyPanel (created by SurveyRow)
+```
+
+## Solution
+
+Still Pending
+
+```
 class SurveyComponent extends React.Component {
   _isunmounted = false;
   constructor(props){
