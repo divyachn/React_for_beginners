@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import "./../css/style.css";
+import "./../css/styles.css";
 
-ReactDOM.render(
-  <h1>Hello World</h1>,
-  document.getElementById('root')
-);
+import ComponentRendered from "./components/useHooks.js";
+
+ReactDOM.render(<ComponentRendered />, document.getElementById("root"));
