@@ -4,8 +4,17 @@
   "description": "How a React Project looks like",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-datepicker": "^1.9.0",
+    "file-loader": "^6.0.0",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-loadable": "^5.5.0",
+    "select2": "^4.0.13",
+    "survey-react": "^1.7.26",
+    "surveyjs-widgets": "^1.7.26"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
