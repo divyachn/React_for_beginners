@@ -1,6 +1,11 @@
 # React_for_beginners
 
-How to start with React - references and sample code
+How to start with React 
+
+# Create a New React App
+When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!
+
+As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications.
 
 Refer the following articles. Give them a full read. Otherwise you might miss a few minute details!
 
