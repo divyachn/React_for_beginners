@@ -1,7 +1,5 @@
 # Description
-The React JS or simply React is one of the leading JavaScript libraries for developing front-end or GUI web applications.
-
-Backed by Facebook Design, React JS, also known as just React is has grown by leaps and bounds in recent years and became the de-facto library for component-based GUI development.
+The React JS or simply React is one of the leading JavaScript libraries for developing front-end or GUI web application.
 
 Though there are other front-end frameworks like Angular and Vue.js available, what sets React apart from others is maybe the fact that it just focuses on component-based GUI development and doesn’t invade on other areas.
 # React_for_beginners
